@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background: repeating-radial-gradient(#fff, #eddfdf);
+}
+
+#left {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#right {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+theme {
+    flex: 1;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
